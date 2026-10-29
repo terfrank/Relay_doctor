@@ -1,0 +1,20 @@
+{
+  "name": "relay-doctor",
+  "version": "1.0.0",
+  "description": "Doctor utility for detecting Agent Relay node and workspace drift",
+  "type": "module",
+  "bin": {
+    "relay-doctor": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "start": "node ./dist/cli.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}
